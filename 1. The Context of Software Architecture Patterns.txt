@@ -1,0 +1,88 @@
+1. THE CONTEXT OF SOFTWARE ARCHITECTURE PATTERNS
+------------------------------------------------
+
+* What are software architecture patterns?
+------------------------------------------
+
+* Patterns in Software
+----------------------
+. Solution to common problem
+
+. Components and interactions
+
+* Patters in Writting
+---------------------
+					Introduction
+
+
+Large Unstructured Text			    Body
+
+		
+					 Conclusion
+
+* Pattern Examples
+------------------
+Patterns define how to write and interact with certain classes.
+
+. Repository
+
+. Singleton
+
+. Builder
+
+. Factory 
+
+* Pattern Examples: Repository
+------------------------------
+Show us how we can abstract away implementation details on how to retrieve data from a database.
+
+A piece of our application would call a respository class, which contains the logic to build and send a SQL query to the database.  It also contains the logic to translate the database 
+response to the format that the application code will understand.
+
+
+
+
+	[	] ------- FindCustomers() -------> [            ] ------- SELECT Id, Name, Country FROM dbo.Customer -------> (		)
+						   [ Repository ]<----------------------------------------------------------- (		)
+		     [{				   [            ]		     1   Jane   US			      (		)
+			"id": 1,					             2   Karl   DE
+			"country": "US"
+		      },
+		      {
+		        "id": 2,
+			"name": "Karl",
+			"country": "DE"
+		     }]
+
+
+* Pattern Examples: TryParse ---> VERY WELL KNOWN IN .NET DEVELOPERS
+----------------------------
+You provice an API that contains a parse and the TryParse method.  The TryParse method shouldn't throw an exception.
+
+int x = int.Parse("3");
+
+int y = int.Parse("hello"); <------- Exception
+
+int z = 0;
+if (int.TryParse(input, out z)) <--- Works Fine
+	// continue here
+}
+
+* Software Architecture Patterns
+--------------------------------
+. A higher level.
+
+. We don't focus in just a single class.  Software Architecture Patterns will show us how we can structure and interact with multiple classes in our application.
+
+. We could even go up a level and identify patterns that show us how to organize multiple independant applications regardless of how those are structured internally.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+					
+
