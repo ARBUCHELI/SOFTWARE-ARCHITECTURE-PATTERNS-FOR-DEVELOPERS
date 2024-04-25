@@ -1,0 +1,63 @@
+# INTRODUCTION
+--------------
+
+* Best practices and blueprints
+-------------------------------
+
+* Application landscape patterns
+--------------------------------
+. Single application to the end user.
+
+. Multiple applications behind the scenes possible.
+
+. Knowing and applying the patterns, allows us to reduce the complexity and work more efficiently.
+
+* MVC
+-----
+User interface pattern. (Model, View, Controller).
+
+* Microservices
+---------------
+Pattern that involves multiple applications.
+
+		* MVP: Model-View-Presenter
+		* MVVM: Model-View-ViewModel
+
+						MVC, MVP, and MVVM: Differences
+						-------------------------------
+						MVC			MVP			MVVM
+						---			---			----
+	User Interaction Handled By         Controller        	        View             	View
+	
+	Code in UI (Code Behind)              Minimal		        Yes	       	       Minimal
+
+	View Aware of Model                     Yes         Yes (Supervising Controller)	 No
+							          No (Passive View)	
+
+	Data Binding			       Basic        Basic (Supervising Controller)     Advanced
+								  No (Passive View)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
