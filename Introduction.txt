@@ -37,6 +37,51 @@ Pattern that involves multiple applications.
 	Data Binding			       Basic        Basic (Supervising Controller)     Advanced
 								  No (Passive View)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* What you should know
+----------------------
+. Visual Studio - https://visualstudio.microsoft.com
+. .NET Core SDK - https://dotnet.microsoft.com
+. Visual Studio Code - https://code.visualstudio.com
+. Docker - https://www.docker.com
+. Postman - https://Www.postman.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
